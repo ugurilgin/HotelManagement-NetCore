@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace HotelManagement.Entities.EntityBases
 {
@@ -11,8 +13,10 @@ namespace HotelManagement.Entities.EntityBases
         ORhN, ORhP, ARhN, ARhP, BRhN, BRhP, ABRhN, ABRhP
 
     }
+
     public interface IPerson
     {
+      
         public long id { get; set; }
         public string name { get; set; }
         public string surname { get; set; }

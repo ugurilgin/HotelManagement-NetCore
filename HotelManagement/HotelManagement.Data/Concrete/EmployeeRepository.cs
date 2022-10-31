@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete
 {
-    internal class EmployeeRepository : IEmployeeRepository
+     public class EmployeeRepository : IEmployeeRepository
     {
         public Employee createEmployee(Employee employee)
         {
@@ -51,7 +51,8 @@ namespace DataAccess.Concrete
         {
             using (var applicationDbContext = new ApplicationDbContext())
             {
-                 applicationDbContext.Employees.Update(employee);
+               
+                applicationDbContext.Employees.Update(employee);
                 applicationDbContext.SaveChanges();
                 return employee;
             }

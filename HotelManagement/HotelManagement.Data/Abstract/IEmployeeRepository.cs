@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    internal interface IEmployeeRepository
+    public interface IEmployeeRepository
     {
         List<Employee> getAllEmployees();
         Employee getEmployee(int id);

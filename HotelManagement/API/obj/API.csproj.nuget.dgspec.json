@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\futbo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\futbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\Business\\Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\futbo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\futbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Data\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Data\\DataAccess.csproj"
+              },
+              "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Data\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Data\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Data\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\futbo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\futbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\futbo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\futbo\\OneDrive\\Belgeler\\GitHub\\Hotel-Management-NetCore\\src\\HotelManagement\\HotelManagement.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\futbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
