@@ -2,13 +2,15 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using Entities;
 
 namespace HotelManagement.Entities
 {
     public class Customers : IPerson
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long id { get; set; }
+        public int id { get; set; }
         [Required(ErrorMessage = "Name can not be null")]
         [StringLength(25, MinimumLength = 3, ErrorMessage = "Name Size must be between 3 and 25")]
         public string name { get; set; }
@@ -29,5 +31,9 @@ namespace HotelManagement.Entities
         [Required(ErrorMessage = "Adress can not be null")]
         [StringLength(125, MinimumLength = 3, ErrorMessage = "Adress Size must be between 3 and 125")]
         public string adress { get; set; }
+        public ICollection<CustomerBill> customerBill { get; set; }
+        public ICollection<customer_extra> customer_Extras { get; set; }
+        public ICollection<customer_restaurant> customer_Restaurants { get; set; }
+        public ICollection<customer_service> customer_Services { get; set; }
     }
 }

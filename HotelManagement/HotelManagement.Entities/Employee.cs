@@ -1,5 +1,7 @@
-﻿using HotelManagement.Entities.EntityBases;
+﻿using Entities;
+using HotelManagement.Entities.EntityBases;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -8,7 +10,7 @@ namespace HotelManagement.Entities
     public class Employee : IPerson
     {
         [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long id { get; set; }
+        public int id { get; set; }
         [StringLength(25,MinimumLength =3 ,ErrorMessage = "Name Size must be between 3 and 25")]
         [Required(ErrorMessage ="Name can not be null")]
         public string name { get; set; }
@@ -39,6 +41,7 @@ namespace HotelManagement.Entities
         public String job { get; set; }
         [Required(ErrorMessage = "Salary can not be null")]
         public int salary { get; set; }
+        public ICollection<Rooms> room { get; set; }
 
     }
 }

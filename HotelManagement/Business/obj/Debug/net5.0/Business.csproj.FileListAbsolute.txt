@@ -13,3 +13,5 @@ C:\Users\futbo\OneDrive\Belgeler\GitHub\Hotel-Management-NetCore\src\HotelManage
 C:\Users\futbo\OneDrive\Belgeler\GitHub\Hotel-Management-NetCore\src\HotelManagement\Business\obj\Debug\net5.0\refint\Business.dll
 C:\Users\futbo\OneDrive\Belgeler\GitHub\Hotel-Management-NetCore\src\HotelManagement\Business\obj\Debug\net5.0\Business.pdb
 C:\Users\futbo\OneDrive\Belgeler\GitHub\Hotel-Management-NetCore\src\HotelManagement\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Users\futbo\OneDrive\Belgeler\GitHub\Hotel-Management-NetCore\src\HotelManagement\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Users\futbo\OneDrive\Belgeler\GitHub\Hotel-Management-NetCore\src\HotelManagement\Business\bin\Debug\net5.0\DataAccess.pdb

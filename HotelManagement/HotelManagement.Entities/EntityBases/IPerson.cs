@@ -17,7 +17,7 @@ namespace HotelManagement.Entities.EntityBases
     public interface IPerson
     {
       
-        public long id { get; set; }
+        public int id { get; set; }
         public string name { get; set; }
         public string surname { get; set; }
         public DateTime birthDate { get; set; }
