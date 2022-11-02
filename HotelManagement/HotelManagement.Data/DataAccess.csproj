@@ -19,8 +19,4 @@
     <ProjectReference Include="..\HotelManagement.Entities\Entities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DTO\Response\" />
-  </ItemGroup>
-
 </Project>

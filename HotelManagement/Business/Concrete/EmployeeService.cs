@@ -78,7 +78,7 @@ namespace Business.Concrete
         public Employee updateEmployee(Employee employee,int id)
         {
             if (id > 0) {
-                employee.id = id;
+               
             return _employeeRepository.updateEmployee(employee); }
             else
                 throw new Exception("Id can not be less than 1");

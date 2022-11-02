@@ -34,6 +34,21 @@ namespace API
             services.AddControllers();
             services.AddSingleton<IEmployeeService, EmployeeService>();
             services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
+            services.AddSingleton<ICustomerService, CustomerService>();
+            services.AddSingleton<ICustomerRepository, CustomerRepository>();
+            services.AddSingleton<IBillService, BillService>();
+            services.AddSingleton<IBillRepository, CustomerBillRepository>();
+            services.AddSingleton<IExtrasService, ExtrasService>();
+            services.AddSingleton<IExtrasRepository, ExtrasRepository>();
+            services.AddSingleton<IRestaurantService, RestaurantService>();
+            services.AddSingleton<IRestaurantRepository, RestaurantRepository>();
+            services.AddSingleton<IServicesService, ServicesService>();
+            services.AddSingleton<IServicesRepository, ServicesRepository>();
+            services.AddSingleton<IRoleRepository, RoleRepository>();
+            services.AddSingleton<IRoomService, RoomService>();
+            services.AddSingleton<IRoomRepository, RoomRepository>();
+            services.AddSingleton<IUserService, UserService>();
+            services.AddSingleton<IUserRepository, UserRepository>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
